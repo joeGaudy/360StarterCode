@@ -1,9 +1,9 @@
-package hi;
+package passwordServer;
 
 import org.springframework.web.client.RestClient;
 
 
-public class PasswordClient
+public class LoginProgram
 {
 	
 	public static void main(String[] args)

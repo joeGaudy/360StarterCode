@@ -5,6 +5,12 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import payRoll.ContractorEmployee;
+import payRoll.Employee;
+import payRoll.HourlyEmployee;
+import payRoll.PayEmployees;
+import payRoll.SalaryEmployee;
+
 class EmployeeTest
 {
 	
