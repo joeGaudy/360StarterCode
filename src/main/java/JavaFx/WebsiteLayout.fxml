@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="582.0" prefWidth="676.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+   <right>
+      <SplitPane dividerPositions="0.4766355140186916" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0" BorderPane.alignment="CENTER">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" />
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" />
+        </items>
+      </SplitPane>
+   </right>
+   <top>
+      <HBox alignment="TOP_RIGHT" prefHeight="110.0" prefWidth="680.0" style="-fx-border-color: black;" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="TOP_RIGHT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="69.0" prefWidth="678.0" style="-fx-border-color: black;">
+               <children>
+                  <HBox alignment="TOP_RIGHT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="8.0" prefHeight="33.0" prefWidth="200.0" style="-fx-border-color: black;" />
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+   </top>
+   <left>
+      <Pane prefHeight="333.0" prefWidth="161.0" style="-fx-border-color: black;" BorderPane.alignment="CENTER" />
+   </left>
+   <center>
+      <Pane prefHeight="245.0" prefWidth="355.0" style="-fx-border-color: black;" BorderPane.alignment="CENTER" />
+   </center>
+   <bottom>
+      <HBox alignment="TOP_CENTER" prefHeight="149.0" prefWidth="676.0" BorderPane.alignment="BOTTOM_CENTER">
+         <children>
+            <HBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="90.0" prefWidth="676.0" style="-fx-border-color: black;" />
+         </children>
+      </HBox>
+   </bottom>
+</BorderPane>
