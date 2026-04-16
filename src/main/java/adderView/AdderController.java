@@ -51,6 +51,8 @@ public class AdderController
             double new_num1 = getNum(num1);
             double new_num2 = getNum(num2);
             model.setSum(new_num1 + new_num2);
+            num1.clear();  
+            num2.clear();  
         } catch (NumberFormatException e) {
             System.out.println("Invalid input: please enter numbers only.");
         }

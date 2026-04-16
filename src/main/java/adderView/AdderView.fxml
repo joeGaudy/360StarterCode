@@ -19,7 +19,7 @@
    <center>
       <HBox prefHeight="66.0" prefWidth="417.0" BorderPane.alignment="CENTER">
          <children>
-            <TextField fx:id="num1" prefHeight="40.0" prefWidth="120.0">
+            <TextField id="num1Text" fx:id="num1" prefHeight="40.0" prefWidth="120.0">
                <HBox.margin>
                   <Insets left="20.0" />
                </HBox.margin>
@@ -29,13 +29,13 @@
                   <Font size="29.0" />
                </font>
             </Label>
-            <TextField fx:id="num2" prefHeight="40.0" prefWidth="120.0" />
+            <TextField id="num2Text" fx:id="num2" prefHeight="40.0" prefWidth="120.0" />
             <Label prefHeight="39.0" prefWidth="26.0" text="=">
                <font>
                   <Font size="27.0" />
                </font>
             </Label>
-            <Label fx:id="sum" prefHeight="42.0" prefWidth="101.0" text="0">
+            <Label id="sumLabel" fx:id="sum" prefHeight="42.0" prefWidth="101.0" text="0">
                <HBox.margin>
                   <Insets left="10.0" />
                </HBox.margin>
@@ -57,7 +57,7 @@
                   <Insets left="5.0" />
                </HBox.margin>
             </Label>
-            <Button mnemonicParsing="false" onAction="#onAddNumbers" prefHeight="30.0" prefWidth="92.0" text="Add">
+            <Button id="addNumbersButton" mnemonicParsing="false" onAction="#onAddNumbers" prefHeight="30.0" prefWidth="92.0" text="Add">
                <HBox.margin>
                   <Insets top="7.0" />
                </HBox.margin>
